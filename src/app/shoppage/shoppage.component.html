@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="card" *ngFor="let product of productssale">
+    <img src="{{ product.img }}" />
+    <img
+      *ngIf="product.sale"
+      class="sale-tag"
+      src="https://shop.myfolie.com/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSnJkbUZ5YVdGdWRITXZkR0V6ZW1Oc05URTFjbTkzTUdRME1ISnVZWEZzZVc1dlltTnRaQzh5TldRd1lqRTVNV05sWVRJMlpqUTNNMlJoT0RCbE1qTmpOR1l6WWpNME56VTVPREUxWkRrNU9HUTNPV0V5WlRKbU56SmxaV1JsWm1Kak1EZzVZVFV5QmpvR1JWUTZFR1JwYzNCdmMybDBhVzl1U1NKSmFXNXNhVzVsT3lCbWFXeGxibUZ0WlQwaU1TQWxNamd5TlNVeU9TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSnpFbE1qQWxNamd5TlNVeU9TNXdibWNHT3daVU9oRmpiMjUwWlc1MFgzUjVjR1ZKSWc1cGJXRm5aUzl3Ym1jR093WlVPaEZ6WlhKMmFXTmxYMjVoYldVNkNteHZZMkZzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2tleSJ9fQ==--7faf5e8742e3a2feeb585ef5c114b0700d8925f5/1%20(25).png"
+    />
+    <h2>{{ product.title }}</h2>
+    <p class="fg">{{ product.description }}</p>
+    <p>{{ product.price }} €</p>
+    <div class="card-price-container">
+      <button>Show more</button>
+    </div>
+  </div>
+</div>

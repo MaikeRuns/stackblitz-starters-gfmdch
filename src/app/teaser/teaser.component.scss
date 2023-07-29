@@ -1,0 +1,28 @@
+.brand {
+  background-color: #f8fcf0;
+  padding: 10px 6px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:28px;
+  font-weight: 800;
+  border: 2px 2px;
+  margin-bottom: 30px; 
+  font-style: italic;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo { 
+    object-fit: contain;
+    height: auto;
+    width: 97%;
+  }
+  
+  p {
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 800
+  }
+}

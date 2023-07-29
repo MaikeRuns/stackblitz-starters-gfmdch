@@ -1,0 +1,49 @@
+.card {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid;
+  margin-right: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+
+  img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+  }
+  .logo {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .card-price-container {
+    display: flex;
+    justify-content: start;
+  }
+
+  .sale-tag {
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    height: 90px;
+    width: auto;
+  }
+
+}
+
+.fg {
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  background-color: #f8fcf0;
+}
